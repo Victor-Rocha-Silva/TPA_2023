@@ -1,0 +1,42 @@
+// # Definindo o intervalo de números
+// inicio = 1
+// fim = 10
+
+// # Verificando se os números no intervalo são pares ou ímpares
+// for num in range(inicio, fim + 1):
+//     if num % 2 == 0:
+//         print(f"{num} é um número par")
+//     else:
+//         print(f"{num} é um número ímpar")
+
+// def nome_dia_da_semana(numero):
+//     if numero == 1:
+//         return "Segunda-feira"
+//     elif numero == 2:
+//         return "Terça-feira"
+//     elif numero == 3:
+//         return "Quarta-feira"
+//     elif numero == 4:
+//         return "Quinta-feira"
+//     elif numero == 5:
+//         return "Sexta-feira"
+//     elif numero == 6:
+//         return "Sábado"
+//     elif numero == 7:
+//         return "Domingo"
+//     else:
+//         return "Número inválido - Fora do intervalo de 1 a 7"
+
+// numero_dia = 3  # Altere o número aqui para testar diferentes dias da semana
+
+// nome_do_dia = nome_dia_da_semana(numero_dia)
+// print(f"O dia correspondente ao número {numero_dia} é: {nome_do_dia}")
+
+contador = 0
+
+# Loop enquanto o contador for menor que 5
+while contador < 5:
+    print(f"O contador é {contador}")
+    contador += 1  # Incrementa o contador em 1 a cada iteração
+
+print("Loop concluído")
