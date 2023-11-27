@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let contador = 1;
+        let confirm;
+
+        while ( contador <= 100){
+            
+            let confirm = prompt('deseja continuar')
+            console.log(contador)
+
+            if ( confirm == 's' || confirm == 'sim'){
+                contador++;
+            } else{
+                contador = 100
+            }
+            
+        }        
+        
+        
+    </script>
+</body>
+</html>
